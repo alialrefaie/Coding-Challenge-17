@@ -25,6 +25,9 @@ function App() {
       <main>
         <TaskGenerator />
       </main>
+      <footer>
+      © 2024 Ali Alrefaie. All rights reserved.
+      </footer>
     </div>
   );
 }
