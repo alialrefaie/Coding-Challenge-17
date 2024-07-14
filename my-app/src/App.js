@@ -1,3 +1,6 @@
+import React from 'react';
+import FancyText from './components/FancyText';
+import TaskGenerator from './components/TaskGenerator';
 import logo from './logo.svg';
 import './App.css';
 
@@ -5,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <FancyText title={true} text="Task Management App" />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <TaskGenerator />
+      </main>
     </div>
   );
 }
